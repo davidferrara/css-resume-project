@@ -1,8 +1,57 @@
-body {
-    background: darkslateblue;
+/* Color Palette
+#8A716A - brown
+#C2B8B2 - light brown
+#197BBD - light blue
+#125E8A - dark blue
+#204B57 - dark blue-green
+*/
+
+
+/* Global styles
+------------------------------------ */
+
+body {}
+
+a {
+    color: #8A716A;
 }
 
-img.resize {
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Header and Footer
+------------------------------------ */
+
+header,
+footer {
+    background: #204B57;
+    color: #8A716A;
+}
+
+header h1,
+header h2 {
+    color: #197BBD;
+}
+
+#image {
     max-width: 50%;
     max-height: 50%;
+}
+
+
+/* Work Experience
+------------------------------------ */
+
+.work {
+    background: #197BBD;
+}
+
+
+/* Education
+------------------------------------ */
+
+.education {
+    background: #C2B8B2;
 }
